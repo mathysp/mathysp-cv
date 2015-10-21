@@ -1,0 +1,12 @@
+main{
+  height: 100%;
+  > section{
+    min-height: 100%;
+    background: $oil;
+    padding-top: $column-gutter;
+    padding-bottom: $column-gutter;
+
+
+  }
+
+}

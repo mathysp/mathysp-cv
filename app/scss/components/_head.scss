@@ -1,0 +1,83 @@
+.head{
+
+  background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+
+  .group-left,
+  .group-right{
+
+  }
+
+  .headshot{
+    max-width: 50%;
+    margin: 0 auto $column-gutter/2 auto;
+    display: block;
+  }
+
+  .page-title{
+    text-align: center;
+    margin-bottom: $column-gutter;
+    h1{
+      span{
+        font-size: $h2-font-size - $h2-font-reduction;
+      }
+    }
+  }
+
+  .title,
+  .subtitle{
+    text-align: center;
+    h3,h4{
+      display: inline-block;
+      padding: rem-calc(5) rem-calc(10);
+      background: $teal;
+    }
+  }
+
+  .card{
+    margin-top: $column-gutter;
+
+    padding: $column-gutter/2;
+    color: $jet;
+
+    background: $ghost;
+    background: url('/images/invader.png') no-repeat center right $column-gutter $ghost;
+  }
+
+  .status{
+    font-family: $ff-kaushan;
+    font-size: rem-calc(28);
+    margin-top: $column-gutter/2;
+    text-align: center;
+  }
+
+}
+
+@media #{$medium-up}{
+  .head{
+    .group-left,
+    .group-right{
+
+    }
+
+    .page-title{
+      text-align: center;
+      h1{
+        span{
+          font-size: $h2-font-size;
+        }
+      }
+    }
+
+    .title{
+    }
+    .subtitle{
+    }
+
+  }
+}

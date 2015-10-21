@@ -1,0 +1,21 @@
+/* all app scss styles here */
+
+@import "compass/css3";
+@import "compass/utilities";
+
+// GENERAL
+@import "base";
+@import "fonts";
+
+// LAYOUT
+@import "layout/main";
+
+// COMPONENTS
+@import "components/head";
+@import "components/education";
+@import "components/employment";
+@import "components/skills";
+@import "components/hobbies";
+
+
+
