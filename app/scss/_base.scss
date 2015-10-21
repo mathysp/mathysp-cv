@@ -3,3 +3,13 @@
     margin-bottom:0;
   }
 }
+
+.title-wrapper{
+  h2{
+    margin-bottom: 0;
+  }
+  .subtitle{
+    margin-bottom: $column-gutter/2;
+
+  }
+}

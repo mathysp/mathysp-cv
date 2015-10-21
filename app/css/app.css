@@ -8512,6 +8512,13 @@ th.hide-for-touch {
   margin-bottom: 0;
 }
 
+.title-wrapper h2 {
+  margin-bottom: 0;
+}
+.title-wrapper .subtitle {
+  margin-bottom: 0.9375rem;
+}
+
 main {
   height: 100%;
 }
@@ -8520,6 +8527,7 @@ main > section {
   background: #333333;
   padding-top: 1.875rem;
   padding-bottom: 1.875rem;
+  position: relative;
 }
 
 .head {
@@ -9104,4 +9112,26 @@ main > section {
 .hobby .icon {
   font-size: 100px;
   text-align: center;
+}
+
+.contact .contact-list {
+  margin-left: 0;
+  list-style: none;
+}
+.contact .contact-list li {
+  margin-bottom: 0.9375rem;
+}
+.contact .contact-list li i.fa {
+  font-size: 1.25rem;
+  margin-right: 0.9375rem;
+  color: #FFFFFF;
+}
+.contact footer {
+  position: absolute;
+  bottom: 0;
+  background: #F6F6F6;
+}
+.contact footer .footnote {
+  margin: 0.9375rem 0;
+  color: #222222;
 }
