@@ -25,3 +25,18 @@
     }
   }
 }
+
+
+@media #{$medium-up}{
+
+}
+
+@media #{$large-up}{
+  .education{
+    .title-wrapper{
+      margin-bottom: $column-gutter*3;
+    }
+  }
+}
+
+

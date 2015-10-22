@@ -115,6 +115,7 @@ $oil            : #333333;
 $jet            : #222222;
 // $black       : #000000;
 $teal           : #54bbaf;
+$red            : #ff0000;
 
 // We use these as default colors throughout
 $primary-color: #008CBA;
@@ -738,11 +739,11 @@ $h4-font-reduction: rem-calc(5);
 // $include-html-inline-list-classes: $include-html-classes;
 
 // We use this to control the margins and padding of the inline list.
-// $inline-list-top-margin: 0;
-// $inline-list-opposite-margin: 0;
-// $inline-list-bottom-margin: rem-calc(17);
-// $inline-list-default-float-margin: rem-calc(-22);
-// $inline-list-default-float-list-margin: rem-calc(22);
+$inline-list-top-margin: 0;
+$inline-list-opposite-margin: 0;
+$inline-list-bottom-margin: 0;
+$inline-list-default-float-margin: (($column-gutter/3) * -1);
+$inline-list-default-float-list-margin: $column-gutter/3;
 
 // $inline-list-padding: 0;
 

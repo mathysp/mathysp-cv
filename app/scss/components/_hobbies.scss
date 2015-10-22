@@ -31,9 +31,17 @@
   margin-bottom: $column-gutter;
   > .hobby-wrapper{
     border-radius: $global-radius;
-    background: $teal;
+    background: $jet; //$teal;
     padding: $column-gutter/2;
     box-shadow: $box-shadow;
+    color: $white;
+  }
+  .image{
+    text-align: center;
+    margin: $column-gutter/2 0;
+    img{
+      max-width: 30%;
+    }
   }
 
   h4{

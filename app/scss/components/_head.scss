@@ -39,6 +39,18 @@
     }
   }
 
+  .slogan{
+    font-size: rem-calc(20);
+    text-align: center;
+    i{
+      color: $red;
+    }
+    .label{
+      background-color: $teal;
+      font-size: rem-calc(16);
+    }
+  }
+
   .card{
     margin-top: $column-gutter;
 
@@ -74,10 +86,22 @@
       }
     }
 
+    .headshot{
+      max-width: 100%;
+    }
+
     .title{
     }
     .subtitle{
+      margin-bottom: $column-gutter;
     }
-
+    .card{
+      max-width: rem-calc(325);
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .status{
+      margin-top: $column-gutter;
+    }
   }
 }
