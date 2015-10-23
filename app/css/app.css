@@ -2445,6 +2445,168 @@ blockquote p {
   margin-bottom: 0.9375rem;
 }
 
+@media print {
+  h1 {
+    font-size: 30px !important;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  h3 {
+    font-size: 20px !important;
+  }
+
+  h4 {
+    font-size: 18px !important;
+  }
+
+  .column + .column:last-child, .columns + .column:last-child, .column + .columns:last-child, .columns + .columns:last-child {
+    float: left !important;
+  }
+
+  .row {
+    max-width: 100% !important;
+  }
+
+  .label {
+    padding: 0 !important;
+  }
+
+  main > section {
+    min-height: auto !important;
+    padding: 0 !important;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .employment article .group-left a,
+  .head .status,
+  img {
+    display: none !important;
+  }
+
+  * {
+    text-align: left !important;
+  }
+
+  .title-wrapper h2 {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  }
+
+  .head .ps {
+    display: none;
+  }
+  .head .card {
+    position: absolute;
+    right: 15px;
+    top: 55px;
+    border: 1px solid #ccc;
+  }
+  .head .title h3, .head .title h4, .head .subtitle h3, .head .subtitle h4 {
+    padding: 0 !important;
+  }
+  .head .slogan {
+    margin-bottom: 1.875rem;
+  }
+  .head .slogan .label {
+    font-size: 1.25rem !important;
+  }
+
+  .education article {
+    width: 50%;
+    float: left;
+  }
+  .education article > a {
+    display: none;
+  }
+  .education article .caption {
+    position: relative !important;
+  }
+
+  .contact .title-wrapper,
+  .contact .title-wrapper,
+  .hobbies .title-wrapper,
+  .hobbies .title-wrapper,
+  .portfolio .title-wrapper,
+  .portfolio .title-wrapper,
+  .education .title-wrapper,
+  .education .title-wrapper,
+  .skills .title-wrapper,
+  .skills .title-wrapper,
+  .employment .title-wrapper,
+  .employment .title-wrapper {
+    margin-top: 1.875rem;
+    margin-bottom: 0 !important;
+  }
+
+  .skills .skill-list > .skill {
+    float: left;
+    margin-right: 0.9375rem;
+    font-weight: bold;
+  }
+  .skills .skill-list > .skill .popout {
+    font-weight: normal;
+    display: block !important;
+    position: relative !important;
+    width: auto !important;
+    top: 0 !important;
+    margin-left: 7px;
+    font-style: italic;
+  }
+  .skills .logo-list li {
+    float: left;
+    width: auto;
+    max-width: 110px;
+    margin-right: 0.9375rem;
+  }
+  .skills .logo-list li a {
+    word-break: break-all;
+  }
+  .skills .logo-list li img {
+    display: block !important;
+  }
+
+  .portfolio article > .inner-wrapper {
+    padding: 0 !important;
+  }
+  .portfolio article .image {
+    border: none !important;
+  }
+  .portfolio article .image a {
+    display: none;
+  }
+  .portfolio article .technology-list .label {
+    padding: 0 !important;
+  }
+
+  .hobbies .title-wrapper h2, .hobbies .title-wrapper .subtitle {
+    padding: 0 !important;
+  }
+
+  .hobby .image {
+    display: none;
+  }
+  .hobby > .hobby-wrapper {
+    padding: 0 !important;
+  }
+
+  .contact .contact-information .item {
+    float: left;
+    width: auto;
+  }
+  .contact footer {
+    display: none;
+  }
+
+  .portfolio,
+  .contact,
+  .hobbies,
+  .skills,
+  .employment {
+    page-break-before: always;
+  }
+}
 main {
   height: 100%;
 }
@@ -2457,9 +2619,14 @@ main > section {
 }
 
 .head {
+  min-height: 1%;
   background: radial-gradient(#000000 15%, rgba(0, 0, 0, 0) 16%) 0 0, radial-gradient(#000000 15%, rgba(0, 0, 0, 0) 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, rgba(0, 0, 0, 0) 20%) 0 1px, radial-gradient(rgba(255, 255, 255, 0.1) 15%, rgba(0, 0, 0, 0) 20%) 8px 9px;
   background-color: #282828;
   background-size: 16px 16px;
+}
+.head .ps {
+  text-align: center;
+  margin-top: 1.875rem;
 }
 .head .headshot {
   max-width: 50%;

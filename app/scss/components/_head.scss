@@ -1,4 +1,5 @@
 .head{
+  min-height: 1%;
 
   background:
     radial-gradient(black 15%, transparent 16%) 0 0,
@@ -11,6 +12,11 @@
   .group-left,
   .group-right{
 
+  }
+
+  .ps{
+    text-align: center;
+    margin-top: $column-gutter;
   }
 
   .headshot{
