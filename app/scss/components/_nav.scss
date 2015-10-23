@@ -34,3 +34,12 @@
   }
 
 }
+
+
+@media #{$small-only}{
+  .tab-bar{
+    .title{
+      font-size: rem-calc(14);
+    }
+  }
+}

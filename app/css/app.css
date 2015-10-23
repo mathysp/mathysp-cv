@@ -3368,6 +3368,11 @@ main > .inner-wrap > .skills {
   color: #FFFFFF;
 }
 
+@media only screen and (max-width: 40em) {
+  .tab-bar .title {
+    font-size: 0.875rem;
+  }
+}
 .head {
   min-height: 1% !important;
 }
