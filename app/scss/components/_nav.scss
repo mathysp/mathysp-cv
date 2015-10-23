@@ -1,0 +1,36 @@
+.nav{
+  margin-left: 0;
+  list-style: none;
+  padding: $column-gutter/2;
+  li{
+    a{
+      display: inline-block;
+      width: 100%;
+      font-size: rem-calc(18);
+    }
+  }
+}
+
+.tab-bar{
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+
+  .right-small{
+    text-align: center;
+    a{
+      font-size: 22px;
+      color: $white;
+    }
+  }
+  .title{
+    font-weight: normal;
+    color: $oil;
+    transition: all .35s ease 0s;
+  }
+  .title.show{
+    color: $white;
+  }
+
+}

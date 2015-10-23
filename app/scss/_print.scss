@@ -23,13 +23,14 @@
     padding: 0 !important;
   }
 
-  main > section{
+  main > .inner-wrap > section{
     min-height: auto !important;
     padding: 0 !important;
     border-bottom: 1px solid #ccc;
   }
 
-
+  .tab-bar,
+  aside,
   .employment article .group-left a,
   .head .status,
   img{

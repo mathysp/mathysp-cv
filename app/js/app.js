@@ -13,6 +13,20 @@ var app = (function(document, $) {
                 $(document).foundation('joyride', 'start');
             });
 			_userAgentInit();
+
+      var educationTop = $('.education').offset().top - 50;
+      $(window).scroll(function(){
+        var windowTop = $(window).scrollTop();
+        $('.sticky').css('transform', 'translateY(' + windowTop + 'px)');
+
+        if($(window).scrollTop() > educationTop){
+          $('.title').addClass('show');
+        } else {
+          $('.title').removeClass('show');
+        }
+
+      });
+
 		};
 	return {
 		init: _init

@@ -1,5 +1,5 @@
 .contact{
-  padding-bottom: rem-calc(170);
+  padding-bottom: rem-calc(155);
 
 
   .contact-list{
@@ -33,3 +33,8 @@
   }
 }
 
+@media #{$large-up}{
+  .contact{
+    padding-bottom: rem-calc(100);
+  }
+}
