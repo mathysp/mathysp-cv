@@ -2672,8 +2672,11 @@ main > section {
   background-clip: border-box;
   background-size: 100% 100%;
 }
-.skills .title-wrapper {
-  margin-bottom: 1.875rem;
+.skills .logo-list {
+  list-style: none;
+}
+.skills .logo-list li {
+  margin-bottom: 0.9375rem;
 }
 .skills .skill-list {
   list-style: none;
