@@ -4042,7 +4042,7 @@ main > .inner-wrap > .skills {
   margin: 0.9375rem 0;
 }
 .hobby .image img {
-  max-width: 30%;
+  max-width: 10.3125rem;
 }
 .hobby h4 {
   text-align: center;

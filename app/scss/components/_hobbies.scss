@@ -32,7 +32,7 @@
     text-align: center;
     margin: $column-gutter/2 0;
     img{
-      max-width: 30%;
+      max-width: rem-calc(165);
     }
   }
 
