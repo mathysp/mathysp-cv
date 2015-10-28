@@ -13,7 +13,7 @@ module.exports = function(grunt) {
         critical: {
           test: {
             options: {
-              base: './',
+              base: 'dist/',
               css: [
                 '<%= dist %>/css/libraries.min.css',
                 '<%= dist %>/css/app.min.css'
@@ -66,6 +66,7 @@ module.exports = function(grunt) {
                 src: ['<%= dist %>/*']
             },
         },
+
         copy: {
             dist: {
                 files: [{
