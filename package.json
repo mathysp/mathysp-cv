@@ -29,6 +29,7 @@
     "grunt-contrib-imagemin": "0.9.4",
     "grunt-newer": "~1.1.1",
     "autoprefixer": "6.0.3",
-    "grunt-postcss": "~0.6.0"
+    "grunt-postcss": "~0.6.0",
+    "grunt-critical": "~0.1.7"
   }
 }

@@ -10,6 +10,22 @@ module.exports = function(grunt) {
         app: 'app',
         dist: 'dist',
 
+        critical: {
+          test: {
+            options: {
+              base: './',
+              css: [
+                '<%= dist %>/css/libraries.min.css',
+                '<%= dist %>/css/app.min.css'
+              ],
+              width: 1440,
+              height: 768
+            },
+            src: '<%= dist %>/index.html',
+            dest: '<%= dist %>/index.html'
+          }
+        },
+
         sass: {
             dist: {
                 options: {
@@ -160,6 +176,6 @@ module.exports = function(grunt) {
     grunt.registerTask('default', ['compile-sass', 'bower-install', 'connect:app', 'watch']);
     grunt.registerTask('validate-js', ['jshint']);
     grunt.registerTask('server-dist', ['connect:dist']);
-    grunt.registerTask('publish', ['compile-sass', 'clean:dist', 'validate-js', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin']);
+    grunt.registerTask('publish', ['compile-sass', 'clean:dist', 'validate-js', 'useminPrepare', 'copy:dist', 'newer:imagemin', 'concat', 'cssmin', 'uglify', 'usemin', 'critical']);
 
 };
