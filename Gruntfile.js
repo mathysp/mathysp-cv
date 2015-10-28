@@ -14,6 +14,7 @@ module.exports = function(grunt) {
           test: {
             options: {
               base: 'dist/',
+              pathPrefix: '',
               css: [
                 '<%= dist %>/css/libraries.min.css',
                 '<%= dist %>/css/app.min.css'

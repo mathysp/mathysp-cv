@@ -4053,36 +4053,36 @@ main > .inner-wrap > .skills {
   text-align: center;
 }
 
-.contact {
+main > .inner-wrap > .contact {
   padding-bottom: 9.6875rem;
 }
-.contact .contact-list {
+main > .inner-wrap > .contact .contact-list {
   margin-left: 0;
   list-style: none;
 }
-.contact .contact-list li {
+main > .inner-wrap > .contact .contact-list li {
   margin-bottom: 0.9375rem;
 }
-.contact .contact-list li i.fa {
+main > .inner-wrap > .contact .contact-list li i.fa {
   font-size: 1.25rem;
   margin-right: 0.9375rem;
   color: #FFFFFF;
 }
-.contact .contact-information .item {
+main > .inner-wrap > .contact .contact-information .item {
   margin-bottom: 0.9375rem;
 }
-.contact footer {
+main > .inner-wrap > .contact footer {
   position: absolute;
   bottom: 0;
   background: #F6F6F6;
 }
-.contact footer .footnote {
+main > .inner-wrap > .contact footer .footnote {
   margin: 0.9375rem 0;
   color: #222222;
 }
 
 @media only screen and (min-width: 64.0625em) {
-  .contact {
+  main > .inner-wrap > .contact {
     padding-bottom: 6.25rem;
   }
 }

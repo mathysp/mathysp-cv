@@ -1,4 +1,4 @@
-.contact{
+main > .inner-wrap > .contact{
   padding-bottom: rem-calc(155);
 
 
@@ -34,7 +34,7 @@
 }
 
 @media #{$large-up}{
-  .contact{
+  main > .inner-wrap > .contact{
     padding-bottom: rem-calc(100);
   }
 }
