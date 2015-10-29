@@ -6,7 +6,7 @@ main{
       min-height: 100%;
       min-height: 100vh;
       background: $oil;
-      padding-top: $column-gutter;
+      padding-top: $column-gutter *1.5;
       padding-bottom: $column-gutter;
 
       position: relative;

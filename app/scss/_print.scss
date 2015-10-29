@@ -1,16 +1,19 @@
 @media print {
 
+  html{
+    font-size: 11px;
+  }
   h1{
-    font-size: 30px !important;
-  }
-  h2{
-    font-size: 25px !important;
-  }
-  h3{
     font-size: 20px !important;
   }
-  h4{
+  h2{
     font-size: 18px !important;
+  }
+  h3{
+    font-size: 16px !important;
+  }
+  h4{
+    font-size: 14px !important;
   }
 
   .column + .column:last-child, .columns + .column:last-child, .column + .columns:last-child, .columns + .columns:last-child{
@@ -56,7 +59,7 @@
     .card{
       position: absolute;
       right: 15px;
-      top: 55px;
+      top: 35px;
       border: 1px solid #ccc;
     }
     .title h3, .title h4, .subtitle h3, .subtitle h4{
@@ -164,12 +167,25 @@
       display: none;
     }
   }
+
+  .employment{
+    article .group-right h3{
+      display:inline;
+    }
+    a[href]:after{
+    }
+  }
+
+  .education,
   .portfolio,
   .contact,
   .hobbies,
   .skills,
   .employment{
-    page-break-before: always;
+    .title-wrapper{
+      margin-top: rem-calc(10);
+    }
+    page-break-before: auto;
   }
 
 }
