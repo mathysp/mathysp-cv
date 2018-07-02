@@ -2442,7 +2442,6 @@ blockquote p {
 .inner-wrap {
   position: relative;
   width: 100%;
-  transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
 }
 .inner-wrap:before, .inner-wrap:after {
@@ -2522,8 +2521,7 @@ blockquote p {
   padding: 0;
   position: relative;
   text-indent: 2.1875rem;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   width: 2.8125rem;
 }
 .tab-bar .menu-icon span::after {
@@ -2551,11 +2549,9 @@ blockquote p {
   overflow-x: hidden;
   overflow-y: auto;
   position: absolute;
-  transition: -webkit-transform 500ms ease 0s;
   transition: transform 500ms ease 0s;
   width: 15.625rem;
   z-index: 1001;
-  -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   left: 0;
   top: 0;
@@ -2574,11 +2570,9 @@ blockquote p {
   overflow-x: hidden;
   overflow-y: auto;
   position: absolute;
-  transition: -webkit-transform 500ms ease 0s;
   transition: transform 500ms ease 0s;
   width: 15.625rem;
   z-index: 1001;
-  -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
   right: 0;
   top: 0;
@@ -2597,11 +2591,9 @@ blockquote p {
   overflow-x: hidden;
   overflow-y: auto;
   position: absolute;
-  transition: -webkit-transform 500ms ease 0s;
   transition: transform 500ms ease 0s;
   width: 15.625rem;
   z-index: 1001;
-  -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
   top: 0;
   width: 100%;
@@ -2621,11 +2613,9 @@ blockquote p {
   overflow-x: hidden;
   overflow-y: auto;
   position: absolute;
-  transition: -webkit-transform 500ms ease 0s;
   transition: transform 500ms ease 0s;
   width: 15.625rem;
   z-index: 1001;
-  -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
   bottom: 0;
   width: 100%;
@@ -2667,7 +2657,6 @@ ul.off-canvas-list li a:active {
 }
 
 .move-right > .inner-wrap {
-  -webkit-transform: translate3d(15.625rem, 0, 0);
   transform: translate3d(15.625rem, 0, 0);
 }
 .move-right .exit-off-canvas {
@@ -2692,7 +2681,6 @@ ul.off-canvas-list li a:active {
 }
 
 .move-left > .inner-wrap {
-  -webkit-transform: translate3d(-15.625rem, 0, 0);
   transform: translate3d(-15.625rem, 0, 0);
 }
 .move-left .exit-off-canvas {
@@ -2717,7 +2705,6 @@ ul.off-canvas-list li a:active {
 }
 
 .move-top > .inner-wrap {
-  -webkit-transform: translate3d(0, -18.75rem, 0);
   transform: translate3d(0, -18.75rem, 0);
 }
 .move-top .exit-off-canvas {
@@ -2742,7 +2729,6 @@ ul.off-canvas-list li a:active {
 }
 
 .move-bottom > .inner-wrap {
-  -webkit-transform: translate3d(0, 18.75rem, 0);
   transform: translate3d(0, 18.75rem, 0);
 }
 .move-bottom .exit-off-canvas {
@@ -2768,7 +2754,6 @@ ul.off-canvas-list li a:active {
 
 .offcanvas-overlap .left-off-canvas-menu, .offcanvas-overlap .right-off-canvas-menu,
 .offcanvas-overlap .top-off-canvas-menu, .offcanvas-overlap .bottom-off-canvas-menu {
-  -webkit-transform: none;
   transform: none;
   z-index: 1003;
 }
@@ -2794,7 +2779,6 @@ ul.off-canvas-list li a:active {
 }
 
 .offcanvas-overlap-left .right-off-canvas-menu {
-  -webkit-transform: none;
   transform: none;
   z-index: 1003;
 }
@@ -2820,7 +2804,6 @@ ul.off-canvas-list li a:active {
 }
 
 .offcanvas-overlap-right .left-off-canvas-menu {
-  -webkit-transform: none;
   transform: none;
   z-index: 1003;
 }
@@ -2846,7 +2829,6 @@ ul.off-canvas-list li a:active {
 }
 
 .offcanvas-overlap-top .bottom-off-canvas-menu {
-  -webkit-transform: none;
   transform: none;
   z-index: 1003;
 }
@@ -2872,7 +2854,6 @@ ul.off-canvas-list li a:active {
 }
 
 .offcanvas-overlap-bottom .top-off-canvas-menu {
-  -webkit-transform: none;
   transform: none;
   z-index: 1003;
 }
@@ -2936,10 +2917,8 @@ ul.off-canvas-list li a:active {
   width: 15.625rem;
   height: 18.75rem;
   z-index: 1002;
-  -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
   left: 0;
-  transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
 }
 .left-submenu * {
@@ -2966,7 +2945,6 @@ ul.off-canvas-list li a:active {
   display: inline;
 }
 .left-submenu.move-right, .left-submenu.offcanvas-overlap-right, .left-submenu.offcanvas-overlap {
-  -webkit-transform: translate3d(0%, 0, 0);
   transform: translate3d(0%, 0, 0);
 }
 
@@ -2984,10 +2962,8 @@ ul.off-canvas-list li a:active {
   width: 15.625rem;
   height: 18.75rem;
   z-index: 1002;
-  -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
   right: 0;
-  transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
 }
 .right-submenu * {
@@ -3014,7 +2990,6 @@ ul.off-canvas-list li a:active {
   display: inline;
 }
 .right-submenu.move-left, .right-submenu.offcanvas-overlap-left, .right-submenu.offcanvas-overlap {
-  -webkit-transform: translate3d(0%, 0, 0);
   transform: translate3d(0%, 0, 0);
 }
 
@@ -3032,11 +3007,9 @@ ul.off-canvas-list li a:active {
   width: 15.625rem;
   height: 18.75rem;
   z-index: 1002;
-  -webkit-transform: translate3d(0, -100%, 0);
   transform: translate3d(0, -100%, 0);
   top: 0;
   width: 100%;
-  transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
 }
 .top-submenu * {
@@ -3058,7 +3031,6 @@ ul.off-canvas-list li a:active {
   border-top: 1px solid #5e5e5e;
 }
 .top-submenu.move-bottom, .top-submenu.offcanvas-overlap-bottom, .top-submenu.offcanvas-overlap {
-  -webkit-transform: translate3d(0, 0%, 0);
   transform: translate3d(0, 0%, 0);
 }
 
@@ -3076,11 +3048,9 @@ ul.off-canvas-list li a:active {
   width: 15.625rem;
   height: 18.75rem;
   z-index: 1002;
-  -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
   bottom: 0;
   width: 100%;
-  transition: -webkit-transform 500ms ease;
   transition: transform 500ms ease;
 }
 .bottom-submenu * {
@@ -3102,7 +3072,6 @@ ul.off-canvas-list li a:active {
   border-top: 1px solid #5e5e5e;
 }
 .bottom-submenu.move-top, .bottom-submenu.offcanvas-overlap-top, .bottom-submenu.offcanvas-overlap {
-  -webkit-transform: translate3d(0, 0%, 0);
   transform: translate3d(0, 0%, 0);
 }
 
@@ -3353,8 +3322,7 @@ main > .inner-wrap > .skills {
 
 @media only screen and (min-width: 64.0625em) {
   .employment .wrapper {
-    -webkit-transform: rotate(1deg);
-            transform: rotate(1deg);
+    transform: rotate(1deg);
   }
 }
 .portfolio .title-wrapper {
