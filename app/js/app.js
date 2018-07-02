@@ -15,7 +15,7 @@ var app = (function(document, $) {
 			_userAgentInit();
 
       var educationTop = $('.education').offset().top - 50;
-      $(window).scroll(function(){
+      $(window).on('scroll', function(){
         var windowTop = $(window).scrollTop();
         $('.sticky').css('transform', 'translateY(' + windowTop + 'px)');
 
